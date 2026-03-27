@@ -9,7 +9,7 @@ A machine learning app that classifies any text as **Positive** or **Negative** 
 
 ## 🚀 Live Demo
 
-> 🔗 **[Try it on Hugging Face Spaces →](https://huggingface.co/spaces/ByteMe-UK/ml-sentiment-analyzer)**
+> 🔗 **[Try it on Hugging Face Spaces →](https://huggingface.co/spaces/bytemeuk/ml-sentiment-analyzer)**
 >
 > Type any text — a review, tweet, or comment — and get an instant sentiment prediction.
 
