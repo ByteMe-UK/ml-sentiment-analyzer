@@ -25,9 +25,9 @@ A machine learning app that classifies any text as **Positive** or **Negative** 
 >
 > Type any text — a review, tweet, or comment — and get an instant sentiment prediction.
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-> _Add a screenshot of the Gradio UI here after deployment_
+![App](screenshots/app.png)
 
 ## ✨ Features
 
