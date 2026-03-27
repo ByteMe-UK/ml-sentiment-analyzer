@@ -1,3 +1,15 @@
+---
+title: ML Sentiment Analyser
+emoji: 🎬
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.0.0"
+python_version: "3.11"
+app_file: app.py
+pinned: false
+---
+
 # 🎬 ML Sentiment Analyser
 
 A machine learning app that classifies any text as **Positive** or **Negative** — trained on 2 000 movie reviews using **TF-IDF + Logistic Regression**, served via a **Gradio** web interface.
