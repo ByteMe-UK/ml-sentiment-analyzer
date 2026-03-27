@@ -16,5 +16,5 @@ jobs:
 
       - name: Push to Hugging Face Spaces
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.HFTOKEN }}
         run: git push -f https://bytemeuk:$HF_TOKEN@huggingface.co/spaces/bytemeuk/ml-sentiment-analyzer main
