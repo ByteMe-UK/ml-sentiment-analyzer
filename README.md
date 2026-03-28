@@ -12,7 +12,7 @@ pinned: false
 
 # 🎬 ML Sentiment Analyser
 
-A machine learning app that classifies any text as **Positive** or **Negative** — trained on 2 000 movie reviews using **TF-IDF + Logistic Regression**, served via a **Gradio** web interface.
+A machine learning app that classifies any text as **Positive** or **Negative** — trained on 25 000 IMDb reviews using **TF-IDF + Logistic Regression**, served via a **Gradio** web interface.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?logo=scikit-learn&logoColor=white)
@@ -21,7 +21,7 @@ A machine learning app that classifies any text as **Positive** or **Negative** 
 
 ## 🚀 Live Demo
 
-> 🔗 **[Try it on Hugging Face Spaces →](https://huggingface.co/spaces/bytemeuk/ml-sentiment-analyzer)**
+> 🔗 **[Try it on Hugging Face Spaces →](https://huggingface.co/spaces/lakshmenroy/ml-sentiment-analyzer)**
 >
 > Type any text — a review, tweet, or comment — and get an instant sentiment prediction.
 
