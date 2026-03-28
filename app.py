@@ -10,11 +10,11 @@ HuggingFace:    entry point is this file (app.py)
 
 import os
 import pickle
-import subprocess
-import sys
 
 import numpy as np
 import gradio as gr
+
+from train import train
 
 MODELS_DIR = "models"
 VECTORIZER_PATH = f"{MODELS_DIR}/vectorizer.pkl"
@@ -24,10 +24,11 @@ LABEL_MAP = {"pos": "Positive 😊", "neg": "Negative 😞"}
 
 
 def _ensure_model() -> None:
-    """Auto-train if model artifacts are missing (e.g. on HuggingFace Spaces)."""
+    """Train if model artifacts are missing (e.g. on HuggingFace Spaces cold start)."""
     if not (os.path.exists(VECTORIZER_PATH) and os.path.exists(CLASSIFIER_PATH)):
-        print("Model not found — running train.py...")
-        subprocess.run([sys.executable, "train.py"], check=True)
+        print("Model not found — training now...")
+        train()
+        print("Training complete.")
 
 
 def _load_model() -> tuple:
