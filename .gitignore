@@ -30,8 +30,7 @@ Thumbs.db
 # Internal docs (private — not pushed to GitHub)
 docs/
 
-# Model artifacts
-models/*.pkl
+# Model artifacts (pkl committed so HF Spaces loads instantly without retraining)
 models/*.pt
 models/*.bin
 *.h5
